@@ -17,13 +17,13 @@ install and update apps.
 2. Open the Launcher, sign in, and install the apps you have from there.
 
 The installers are not code-signed yet. On Windows, SmartScreen warns the first time: choose **More info**,
-then **Run anyway**. Check the download against its SHA-256 in the release's `SHA256SUMS.txt` if you want to
+then **Run anyway**. Check the download against its SHA-256 in the release's `SHA256SUMS-<app>-<version>.txt` if you want to
 be sure it is the file published here.
 
 ## How releases are laid out
 
 - One GitHub Release per application and version, tagged `launcher-v<version>` or `folio-v<version>`.
-- Each release has the installers for each platform and a `SHA256SUMS.txt`.
+- Each release has the installers for each platform and a `SHA256SUMS-<app>-<version>.txt` (for example `SHA256SUMS-launcher-0.1.0.txt`).
 - Only SWIFT Launcher releases are marked **Latest**, so `/releases/latest` always opens the Launcher (Folio's
   installer sends people there when the Launcher is missing). Other apps' releases are published with "Set as
   the latest release" turned off.
