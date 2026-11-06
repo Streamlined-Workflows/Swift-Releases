@@ -1,0 +1,38 @@
+S.W.I.F.T. Software Licence
+
+Copyright (c) 2026 Streamlined Workflows & Innovation for Training L.L.C. All rights reserved.
+
+This repository publishes the installers for S.W.I.F.T. desktop applications, including the SWIFT Launcher
+and SWIFT Folio (together, "the Software"). The Software is proprietary. It is licensed, not sold.
+
+1. What you may do
+   You may download and install the Software, and use it with a S.W.I.F.T. account, under the S.W.I.F.T.
+   Terms & Conditions as they apply to you from time to time. Those Terms decide which products, plans and
+   features your account may use.
+
+2. What you may not do
+   Except where the law allows it regardless of this licence, you may not:
+   a. copy, redistribute, sell, rent, lend, sublicense or publish the Software, or host it for others;
+   b. modify, adapt, translate or make derivative works of the Software;
+   c. reverse-engineer, decompile or disassemble the Software, or try to get around its sign-in or access
+      checks;
+   d. remove or change any copyright, licence or other notice in the Software.
+   Viewing and forking this repository on GitHub, as GitHub's terms allow, does not give any other rights.
+
+3. Third-party components
+   The Software includes open-source components. Each is used under its own licence, which applies to that
+   component and is not changed by this licence. They are listed, with their licence texts, in
+   THIRD-PARTY-NOTICES.md and inside each application.
+
+4. No warranty
+   Except as the S.W.I.F.T. Terms & Conditions say otherwise, the Software is provided "as is", without
+   warranty of any kind, express or implied, including fitness for a particular purpose and
+   non-infringement. To the extent the law allows, Streamlined Workflows & Innovation for Training L.L.C. is
+   not liable for any damages arising from the use of the Software.
+
+5. Ending this licence
+   This licence ends automatically if you break it, or when your right to use the Software under the
+   S.W.I.F.T. Terms & Conditions ends. When it ends, uninstall the Software.
+
+6. The Terms come first
+   If this licence and the S.W.I.F.T. Terms & Conditions disagree, the Terms decide.
