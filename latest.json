@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "updated": "2026-11-06",
+  "apps": {
+    "swift-launcher": {
+      "name": "SWIFT Launcher",
+      "version": "0.1.0",
+      "tag": "launcher-v0.1.0",
+      "platforms": {
+        "win32": {
+          "kind": "nsis",
+          "url": "https://github.com/Streamlined-Workflows/Swift-Releases/releases/download/launcher-v0.1.0/SWIFT-Launcher-Setup-0.1.0.exe",
+          "sha256": "afa484376a2da968d8285e3c53f0c919486cc38dd9a2a93bdd3793f9176f5c00",
+          "size": 119769611
+        },
+        "linux": {
+          "kind": "appimage",
+          "url": "https://github.com/Streamlined-Workflows/Swift-Releases/releases/download/launcher-v0.1.0/SWIFT-Launcher-0.1.0.AppImage",
+          "sha256": "385219aa54b5126705749df56edbdcfe0b55a4df73fcccb5a0bfad0ecef2f685",
+          "size": 125580775
+        }
+      }
+    },
+    "swift-folio": {
+      "name": "SWIFT Folio",
+      "version": "0.1.1",
+      "tag": "folio-v0.1.1",
+      "platforms": {
+        "win32": {
+          "kind": "nsis",
+          "url": "https://github.com/Streamlined-Workflows/Swift-Releases/releases/download/folio-v0.1.1/SWIFT-Folio-Setup-0.1.1.exe",
+          "sha256": "2958f69d5d5b86dda240d3f19c115c24c3a4a1203c995ef399828399d5b82e86",
+          "size": 125161810
+        },
+        "linux": {
+          "kind": "appimage",
+          "url": "https://github.com/Streamlined-Workflows/Swift-Releases/releases/download/folio-v0.1.1/SWIFT-Folio-0.1.1.AppImage",
+          "sha256": "5776ad305b3dd88f0739c2b663a4983204cc08f53c903716091e3c297cc0f423",
+          "size": 132202117
+        }
+      }
+    }
+  }
+}

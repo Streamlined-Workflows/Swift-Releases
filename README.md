@@ -12,18 +12,21 @@ install and update apps.
 ## Installing
 
 1. Download the **SWIFT Launcher** installer for your computer from the latest Launcher release.
-   - Windows: `SWIFT Launcher Setup <version>.exe`
-   - Linux: `SWIFT Launcher-<version>.AppImage`
+   - Windows: `SWIFT-Launcher-Setup-<version>.exe`
+   - Linux: `SWIFT-Launcher-<version>.AppImage`
 2. Open the Launcher, sign in, and install the apps you have from there.
 
 The installers are not code-signed yet. On Windows, SmartScreen warns the first time: choose **More info**,
 then **Run anyway**. Check the download against its SHA-256 in the release's `SHA256SUMS.txt` if you want to
 be sure it is the file published here.
 
-## How releases are laid out (planned)
+## How releases are laid out
 
 - One GitHub Release per application and version, tagged `launcher-v<version>` or `folio-v<version>`.
 - Each release has the installers for each platform and a `SHA256SUMS.txt`.
+- Only SWIFT Launcher releases are marked **Latest**, so `/releases/latest` always opens the Launcher (Folio's
+  installer sends people there when the Launcher is missing). Other apps' releases are published with "Set as
+  the latest release" turned off.
 - `latest.json` (in this repository) lists the current version of each application, with each installer's
   download address and SHA-256. The Launcher reads it to install and update apps, and refuses a file whose
   SHA-256 does not match.
